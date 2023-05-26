@@ -27,21 +27,6 @@ jobs:
         with:
          node-version: ${{ matrix.node-version }}
          cache: 'npm'
-      - run: npm install
-      - run: npm i --global @ui5/cli
-      - run: ui5 build
-      - name: Salvar arquivos como artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: arquivos-gerados
-          path: dist
-
-      - name: Baixar arquivos gerados como artifacts
-        uses: actions/download-artifact@v2
-        with:
-          name: arquivos-gerados
-      - name: Listar arquivos baixados
-        run: ls dist
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
