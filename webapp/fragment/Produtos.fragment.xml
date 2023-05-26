@@ -1,0 +1,49 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+    <SearchField search="searchProduto" maxLength="20" placeholder="Digite o nome do Produto"/>
+    <Panel >
+        <Table id="tableProdutos" items="{/Alphabetical_list_of_products}">
+            <headerToolbar>
+                <Toolbar>
+                    <Title text="Produtos"/>
+                    <ToolbarSpacer />
+                    <Button icon="sap-icon://settings" press="openSettings"/>
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column >
+                    <Label text="#"/>
+                </Column>                
+                <Column>
+                    <Label text="Id do Produto"/>
+                </Column>
+                <Column>
+                    <Label text="Produto"/>
+                </Column>
+                <Column>
+                    <Label text="Quantidade por unidade"/>
+                </Column>
+                <Column>
+                    <Label text="Preço de unidade"/>
+                </Column>
+                <Column>
+                    <Label text="Estoque"/>
+                </Column>
+                <Column>
+                    <Label text="Categoria"/>
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <Text text="{parts:[{path:'produtos>index'}],formatter:'.retornaIndex'}"/>
+                    <Text text="{ProductID}"/>
+                    <Text text="{ProductName}"/>
+                    <Text text="{QuantityPerUnit}" />
+                    <Text text="{parts:[{path:'UnitPrice'}],formatter:'.formatValor'}" />
+                    <Text text="{UnitsInStock}" />
+                    <Text text="{CategoryName}" />
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Panel>
+</core:FragmentDefinition >

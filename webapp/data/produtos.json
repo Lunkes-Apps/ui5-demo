@@ -1,0 +1,557 @@
+{
+    "data": [
+        {
+            "produto": "Arroz",
+            "marca": "Tio João",
+            "valor_compra": 5.99,
+            "valor_venda": 7.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Feijão",
+            "marca": "Camil",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Leite",
+            "marca": "Ninho",
+            "valor_compra": 3.79,
+            "valor_venda": 4.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Pão de Forma",
+            "marca": "Pullman",
+            "valor_compra": 3.99,
+            "valor_venda": 5.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Tomate",
+            "marca": "Fazenda Feliz",
+            "valor_compra": 2.99,
+            "valor_venda": 4.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Óleo de Soja",
+            "marca": "Soya",
+            "valor_compra": 4.49,
+            "valor_venda": 5.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Sal",
+            "marca": "Cisne",
+            "valor_compra": 1.29,
+            "valor_venda": 2.49,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Açúcar",
+            "marca": "União",
+            "valor_compra": 2.79,
+            "valor_venda": 3.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Café",
+            "marca": "Pilão",
+            "valor_compra": 6.99,
+            "valor_venda": 9.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Macarrão",
+            "marca": "Adria",
+            "valor_compra": 2.19,
+            "valor_venda": 3.49,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Sabonete",
+            "marca": "Dove",
+            "valor_compra": 1.99,
+            "valor_venda": 3.29,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Shampoo",
+            "marca": "Pantene",
+            "valor_compra": 7.99,
+            "valor_venda": 10.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Condicionador",
+            "marca": "Seda",
+            "valor_compra": 6.49,
+            "valor_venda": 8.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Detergente",
+            "marca": "Ypê",
+            "valor_compra": 1.89,
+            "valor_venda": 2.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Sabão em Pó",
+            "marca": "Omo",
+            "valor_compra": 8.49,
+            "valor_venda": 11.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Desinfetante",
+            "marca": "Pinho Sol",
+            "valor_compra": 4.99,
+            "valor_venda": 6.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Papel Higiênico",
+            "marca": "Neve",
+            "valor_compra": 7.79,
+            "valor_venda": 9.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Creme Dental",
+            "marca": "Colgate",
+            "valor_compra": 2.99,
+            "valor_venda": 4.49,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Batata",
+            "marca": "Monalisa",
+            "valor_compra": 1.99,
+            "valor_venda": 3.49,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Cenoura",
+            "marca": "Daucy",
+            "valor_compra": 2.49,
+            "valor_venda": 3.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Maçã",
+            "marca": "Gala",
+            "valor_compra": 3.99,
+            "valor_venda": 5.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Banana",
+            "marca": "Prata",
+            "valor_compra": 2.49,
+            "valor_venda": 3.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Laranja",
+            "marca": "Pera",
+            "valor_compra": 1.99,
+            "valor_venda": 3.49,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Morango",
+            "marca": "Festival",
+            "valor_compra": 4.99,
+            "valor_venda": 6.99,
+            "unidade_medida": "caixa"
+        },
+        {
+            "produto": "Cerveja",
+            "marca": "Brahma",
+            "valor_compra": 2.49,
+            "valor_venda": 3.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Vinho",
+            "marca": "Concha Y Toro",
+            "valor_compra": 14.99,
+            "valor_venda": 19.99,
+            "unidade_medida": "garrafa"
+        },
+        {
+            "produto": "Água Mineral",
+            "marca": "Crystal",
+            "valor_compra": 1.29,
+            "valor_venda": 2.49,
+            "unidade_medida": "garrafa"
+        },
+        {
+            "produto": "Refrigerante",
+            "marca": "Coca-Cola",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Suco de Laranja",
+            "marca": "Del Valle",
+            "valor_compra": 3.99,
+            "valor_venda": 5.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Iogurte",
+            "marca": "Danone",
+            "valor_compra": 2.49,
+            "valor_venda": 3.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Queijo Mussarela",
+            "marca": "Tirolez",
+            "valor_compra": 12.99,
+            "valor_venda": 16.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Presunto",
+            "marca": "Sadia",
+            "valor_compra": 8.99,
+            "valor_venda": 11.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Peito de Frango",
+            "marca": "Perdigão",
+            "valor_compra": 7.99,
+            "valor_venda": 10.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Salsicha",
+            "marca": "Perdigão",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Hamburguer",
+            "marca": "Sadiahamburguer",
+            "valor_compra": 6.99,
+            "valor_venda": 9.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Ovo",
+            "marca": "Extra",
+            "valor_compra": 5.49,
+            "valor_venda": 7.49,
+            "unidade_medida": "dúzia"
+        },
+        {
+            "produto": "Margarina",
+            "marca": "Qualy",
+            "valor_compra": 2.79,
+            "valor_venda": 3.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Creme de Leite",
+            "marca": "Nestlé",
+            "valor_compra": 1.99,
+            "valor_venda": 2.99,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Farinha de Trigo",
+            "marca": "Dona Benta",
+            "valor_compra": 2.49,
+            "valor_venda": 3.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Fermento em Pó",
+            "marca": "Royal",
+            "valor_compra": 2.29,
+            "valor_venda": 3.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Azeite de Oliva",
+            "marca": "Borges",
+            "valor_compra": 8.99,
+            "valor_venda": 12.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Vinagre",
+            "marca": "Branco",
+            "valor_compra": 1.79,
+            "valor_venda": 2.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Catchup",
+            "marca": "Heinz",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "frasco"
+        },
+        {
+            "produto": "Mostarda",
+            "marca": "French's",
+            "valor_compra": 2.49,
+            "valor_venda": 3.49,
+            "unidade_medida": "frasco"
+        },
+        {
+            "produto": "Molho de Tomate",
+            "marca": "Quero",
+            "valor_compra": 1.99,
+            "valor_venda": 3.29,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Maionese",
+            "marca": "Hellmann's",
+            "valor_compra": 3.99,
+            "valor_venda": 5.99,
+            "unidade_medida": "pote"
+        },
+        {
+            "produto": "Biscoito",
+            "marca": "Passatempo",
+            "valor_compra": 2.99,
+            "valor_venda": 4.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Chocolate",
+            "marca": "Nestlé",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "barra"
+        },
+        {
+            "produto": "Leite Condensado",
+            "marca": "Moça",
+            "valor_compra": 2.79,
+            "valor_venda": 4.29,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Creme de Leite",
+            "marca": "Tirolez",
+            "valor_compra": 1.79,
+            "valor_venda": 2.99,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Bolacha",
+            "marca": "Maria",
+            "valor_compra": 1.99,
+            "valor_venda": 3.29,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Sorvete",
+            "marca": "Kibon",
+            "valor_compra": 8.99,
+            "valor_venda": 12.99,
+            "unidade_medida": "litro"
+        },
+        {
+            "produto": "Pizza Congelada",
+            "marca": "Sadia",
+            "valor_compra": 9.99,
+            "valor_venda": 13.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Lasanha Pronta",
+            "marca": "Sadia",
+            "valor_compra": 7.49,
+            "valor_venda": 10.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Pão de Queijo",
+            "marca": "Forno de Minas",
+            "valor_compra": 5.99,
+            "valor_venda": 8.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Bolo Pronto",
+            "marca": "Wickbold",
+            "valor_compra": 6.99,
+            "valor_venda": 9.99,
+            "unidade_medida": "unidade"
+        },
+        {
+            "produto": "Biscoito de Polvilho",
+            "marca": "Yoki",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Salgadinho",
+            "marca": "Ruffles",
+            "valor_compra": 3.99,
+            "valor_venda": 5.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Amendoim",
+            "marca": "Yoki",
+            "valor_compra": 2.49,
+            "valor_venda": 3.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Água de Coco",
+            "marca": "Coco do Vale",
+            "valor_compra": 2.99,
+            "valor_venda": 4.29,
+            "unidade_medida": "garrafa"
+        },
+        {
+            "produto": "Barrinha de Cereal",
+            "marca": "Nutry",
+            "valor_compra": 1.99,
+            "valor_venda": 3.29,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Granola",
+            "marca": "Quaker",
+            "valor_compra": 5.99,
+            "valor_venda": 8.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Chá",
+            "marca": "Lipton",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "caixa"
+        },
+        {
+            "produto": "Cereal Matinal",
+            "marca": "Kellogg's",
+            "valor_compra": 7.99,
+            "valor_venda": 11.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Achocolatado",
+            "marca": "Nescau",
+            "valor_compra": 4.99,
+            "valor_venda": 6.99,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Mel",
+            "marca": "Apiário Silvestre",
+            "valor_compra": 9.99,
+            "valor_venda": 13.99,
+            "unidade_medida": "kg"
+        },
+        {
+            "produto": "Biscoito Cream Cracker",
+            "marca": "Club Social",
+            "valor_compra": 2.99,
+            "valor_venda": 4.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Geleia",
+            "marca": "Queensberry",
+            "valor_compra": 4.49,
+            "valor_venda": 5.99,
+            "unidade_medida": "pote"
+        },
+        {
+            "produto": "Maionese",
+            "marca": "Hellmann's",
+            "valor_compra": 3.99,
+            "valor_venda": 5.99,
+            "unidade_medida": "pote"
+        },
+        {
+            "produto": "Catchup",
+            "marca": "Heinz",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "frasco"
+        },
+        {
+            "produto": "Mostarda",
+            "marca": "French's",
+            "valor_compra": 2.49,
+            "valor_venda": 3.49,
+            "unidade_medida": "frasco"
+        },
+        {
+            "produto": "Molho de Tomate",
+            "marca": "Quero",
+            "valor_compra": 1.99,
+            "valor_venda": 3.29,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Maionese",
+            "marca": "Hellmann's",
+            "valor_compra": 3.99,
+            "valor_venda": 5.99,
+            "unidade_medida": "pote"
+        },
+        {
+            "produto": "Biscoito",
+            "marca": "Passatempo",
+            "valor_compra": 2.99,
+            "valor_venda": 4.49,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Chocolate",
+            "marca": "Nestlé",
+            "valor_compra": 3.49,
+            "valor_venda": 4.99,
+            "unidade_medida": "barra"
+        },
+        {
+            "produto": "Leite Condensado",
+            "marca": "Moça",
+            "valor_compra": 2.79,
+            "valor_venda": 4.29,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Creme de Leite",
+            "marca": "Tirolez",
+            "valor_compra": 1.79,
+            "valor_venda": 2.99,
+            "unidade_medida": "lata"
+        },
+        {
+            "produto": "Bolacha",
+            "marca": "Maria",
+            "valor_compra": 1.99,
+            "valor_venda": 3.29,
+            "unidade_medida": "pacote"
+        },
+        {
+            "produto": "Sorvete",
+            "marca": "Kibon",
+            "valor_compra": 8.99,
+            "valor_venda": 12.99,
+            "unidade_medida": "litro"
+        }
+    ]
+}

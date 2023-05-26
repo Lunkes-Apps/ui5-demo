@@ -1,0 +1,68 @@
+{
+    "_version": "1.12.0",
+    "sap.app": {
+        "id": "com.lunkes.ui5.app",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{pageTitle}}",
+        "description": "{{description}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "tableData": {
+                "uri": "./data/produtos.json",
+                "type": "JSON"
+            },
+            "northwind": {
+                "uri": "/NorthWind_Service/v2/northwind/northwind.svc/",
+                "type": "OData",
+                "settings": {
+                    "oDataVersion": "2.0"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "phone": true,
+            "tablet": true
+        }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "com.lunkes.ui5.app.view.LandingPage",
+            "type": "XML",
+            "id": "app"
+        },
+        "dependencies": {
+            "minUI5Version": "1.93",
+            "libs": {
+                "sap.m": {},
+                "sap.ui.core": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "com.lunkes.ui5.app.i18n.i18n",
+                    "supportedLocales": [
+                        ""
+                    ],
+                    "fallbackLocale": ""
+                }
+            },
+            "produtos": {
+                "type": "sap.ui.model.json.JSONModel",
+                "dataSource": "tableData"
+            },
+            "": {
+                "type": "sap.ui.model.odata.v2.ODataModel",
+                "dataSource": "northwind"
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+   <ViewSettingsDialog confirm="applySettings">
+        <sortItems>
+            <ViewSettingsItem text="Produto" key="ProductName"/>
+            <ViewSettingsItem text="Categoria" key="CategoryName"/>
+            <ViewSettingsItem text="Preço unitário" key="UnitPrice"/>
+            <ViewSettingsItem text="Estoque" key="UnitsInStock"/>
+        </sortItems>
+   </ViewSettingsDialog>
+</core:FragmentDefinition>
