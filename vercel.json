@@ -1,3 +1,3 @@
 {
-    "buildCommand": "ui5 build"
+    "buildCommand": "ui5 serve"
 }
