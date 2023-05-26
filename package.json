@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ui5 serve",
-    "buil": "ui5 build",
+    "build": "ui5 build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
