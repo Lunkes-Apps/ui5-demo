@@ -36,7 +36,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: arquivos-gerados
-        path: /dist/**/* 
+        path: dist
     
   Deploy-Production:
     runs-on: ubuntu-latest
@@ -45,7 +45,8 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: arquivos-gerados
-          path: /dist/**/*
+      - name: Listar arquivos baixados
+        run: ls dist
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
