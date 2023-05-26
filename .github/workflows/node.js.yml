@@ -13,34 +13,29 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
-
+      
+  Deploy-Production:
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+         node-version: ${{ matrix.node-version }}
+         cache: 'npm'
+      - run: npm install
+      - run: npm i --global @ui5/cli
+      - run: ui5 build
+      - name: Salvar arquivos como artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: arquivos-gerados
+          path: dist
 
-    steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm install
-    - run: npm i --global @ui5/cli
-    - run: ui5 build
-    - name: Salvar arquivos como artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: arquivos-gerados
-        path: dist
-    
-  Deploy-Production:
-    runs-on: ubuntu-latest
-    steps:
       - name: Baixar arquivos gerados como artifacts
         uses: actions/download-artifact@v2
         with:
