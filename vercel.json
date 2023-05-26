@@ -1,3 +1,7 @@
 {
-    "buildCommand": "ui5 serve"
-}
+    "functions": {
+      "api/ui5-serve.js": {
+        "memory": 512
+      }
+    }
+  }
