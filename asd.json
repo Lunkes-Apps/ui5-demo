@@ -1,7 +1,0 @@
-{
-    "functions": {
-      "api/ui5-serve.js": {
-        "memory": 512
-      }
-    }
-  }
