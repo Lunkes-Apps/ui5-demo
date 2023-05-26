@@ -1,4 +1,4 @@
 {
-  "devCommand": "npm start",
+  "devCommand": "ui5 serve",
   "buildCommand": "npm run build"
 }
