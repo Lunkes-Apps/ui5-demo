@@ -45,7 +45,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: arquivos-gerados
-          path: caminho/para/salvar/arquivos
+          path: /dist
       - uses: actions/checkout@v2
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
