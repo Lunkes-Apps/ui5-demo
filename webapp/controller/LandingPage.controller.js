@@ -1,5 +1,5 @@
 sap.ui.define([
-    'sap/ui/core/mvc/Controller',
+    './BaseController.controller',
     'sap/m/MessageToast',
     'com/lunkes/ui5/app/util/StringHelper',
     'sap/ui/model/Filter',
@@ -8,7 +8,7 @@ sap.ui.define([
 ], function (Controller, MessageToast, StringHelper, Filter, FilterOperator, Sorter) {
     'use strict';
     var index = 0;
-    return Controller.extend("com.lunkes.ui5.app.LandingPage", {
+    return Controller.extend("com.lunkes.ui5.app.controller.LandingPage", {
         formatValor: function (valor, valor2) {
             var formater = new StringHelper()
             return formater.numberToFinance(valor)
@@ -18,10 +18,9 @@ sap.ui.define([
             return index
         },
         searchProduto: function (oEvt) {
-            // debugger
             var sQuery = oEvt.getParameter('query'),
                 aFilter = [
-                    new Filter("ProductName", FilterOperator.Contains, sQuery)],
+                    new Filter("produto", FilterOperator.Contains, sQuery)],
                 oTable = this.byId("tableProdutos"),
                 oBinding = oTable.getBinding("items"),
                 oFilter = new Filter({
@@ -48,6 +47,10 @@ sap.ui.define([
                 oTable = this.byId("tableProdutos"),
                 oBinding = oTable.getBinding("items")
             oBinding.sort(new Sorter(sortItem.getKey(), sortDescending))
+        },
+        goTo: function(){
+            var router = this.getRouter()
+            router.navTo("contato")
         }
     })
 });

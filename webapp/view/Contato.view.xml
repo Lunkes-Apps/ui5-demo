@@ -1,0 +1,46 @@
+<mvc:View  xmlns:core="sap.ui.core"
+    xmlns="sap.m" controllerName="com.lunkes.ui5.app.controller.Contato"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:f="sap.f"
+	xmlns:card="sap.f.cards"
+	xmlns:w="sap.ui.integration.widgets"
+	displayBlock="true"
+	height="100%" >
+    <Page title="{i18n>contatoTitulo}">
+        <Button text="HomePage" press="goBack"/>
+        <Panel headerText="Contatos" height="100%">
+				<layoutData>
+					<FlexItemData baseSize="50%" />
+				</layoutData>
+
+				<f:GridContainer id="grid3" borderReached=".onBorderReached">
+
+					<w:Card manifest="{cardsDados>/objectContent/contact}">
+						<w:layoutData>
+							<f:GridContainerItemLayoutData minRows="4" columns="3" />
+						</w:layoutData>
+					</w:Card>
+
+					<GenericTile header="Appointments management">
+						<layoutData>
+							<f:GridContainerItemLayoutData rows="2" columns="2" />
+						</layoutData>
+						<TileContent unit="EUR" footer="Current Quarter">
+							<ImageContent src="sap-icon://appointment" />
+						</TileContent>
+					</GenericTile>
+
+					<GenericTile header="Sales Fulfillment Application Title" subheader="Subtitle">
+						<layoutData>
+							<f:GridContainerItemLayoutData rows="2" columns="2" />
+						</layoutData>
+						<TileContent unit="EUR" footer="Current Quarter">
+							<ImageContent src="sap-icon://home-share" />
+						</TileContent>
+					</GenericTile>
+
+				</f:GridContainer>
+			</Panel>
+
+    </Page>
+</mvc:View>

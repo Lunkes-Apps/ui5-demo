@@ -1,0 +1,8 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+    xmlns="sap.m" controllerName="com.lunkes.ui5.app.controller.BaseController">
+    <Shell backgroundImage="./resource/bg.jpg" logo="./resource/logo.png">
+        <App id="app">
+            
+        </App>
+    </Shell>
+</mvc:View>

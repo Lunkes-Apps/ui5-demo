@@ -2,7 +2,7 @@
     xmlns="sap.m">
     <SearchField search="searchProduto" maxLength="20" placeholder="Digite o nome do Produto"/>
     <Panel >
-        <Table id="tableProdutos" items="{/Alphabetical_list_of_products}">
+        <Table id="tableProdutos" items="{produtos>/data}">
             <headerToolbar>
                 <Toolbar>
                     <Title text="Produtos"/>
@@ -15,33 +15,29 @@
                     <Label text="#"/>
                 </Column>                
                 <Column>
-                    <Label text="Id do Produto"/>
-                </Column>
-                <Column>
                     <Label text="Produto"/>
                 </Column>
                 <Column>
-                    <Label text="Quantidade por unidade"/>
+                    <Label text="Marca"/>
                 </Column>
                 <Column>
-                    <Label text="Preço de unidade"/>
+                    <Label text="Valor de Compra"/>
                 </Column>
                 <Column>
-                    <Label text="Estoque"/>
+                    <Label text="Valor de Venda"/>
                 </Column>
                 <Column>
-                    <Label text="Categoria"/>
+                    <Label text="Unidade de Medida"/>
                 </Column>
             </columns>
             <items>
                 <ColumnListItem>
                     <Text text="{parts:[{path:'produtos>index'}],formatter:'.retornaIndex'}"/>
-                    <Text text="{ProductID}"/>
-                    <Text text="{ProductName}"/>
-                    <Text text="{QuantityPerUnit}" />
-                    <Text text="{parts:[{path:'UnitPrice'}],formatter:'.formatValor'}" />
-                    <Text text="{UnitsInStock}" />
-                    <Text text="{CategoryName}" />
+                    <Text text="{produtos>produto}"/>
+                    <Text text="{produtos>marca}" />
+                    <Text text="{parts:[{path:'produtos>valor_compra'}],formatter:'.formatValor'}"/>
+                    <Text text="{parts:[{path:'produtos>valor_venda'}],formatter:'.formatValor'}"/>
+                    <Text text="{produtos>unidade_medida}"/>
                 </ColumnListItem>
             </items>
         </Table>

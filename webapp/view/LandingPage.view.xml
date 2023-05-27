@@ -1,10 +1,8 @@
-<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core"
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
     xmlns="sap.m" controllerName="com.lunkes.ui5.app.controller.LandingPage">
-    <Shell backgroundImage="./resource/bg.jpg" logo="./resource/logo.png">
-        <App>
-            <Page title='{i18n>pageTitle}'>
-                <core:Fragment type="XML" fragmentName="com.lunkes.ui5.app.fragment.Produtos"/>
-            </Page>
-        </App>
-    </Shell>
+    <Page title="{i18n>homeTitulo}">
+        <Button text="Contato" press="goTo"/>
+        <core:Fragment type="XML" fragmentName="com.lunkes.ui5.app.fragment.Produtos"/>
+    </Page>
 </mvc:View>
